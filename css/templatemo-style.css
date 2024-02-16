@@ -808,6 +808,18 @@ transition-delay: 0.3s;
 	background-size: cover;
 	
 }
+.contact-right-content-map {
+	min-height: 500px;
+	height: 500px;
+	/* line-height: 500px; */
+	/* padding-top: 150px; */
+	/* padding-bottom: 150px; */
+	text-align: center;
+	background-color: rgba(243, 158, 75, 0.9);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
 
 .contact-right-content .icon {
 	text-align: center;
