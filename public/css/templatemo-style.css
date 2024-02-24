@@ -115,7 +115,7 @@ p {
 	text-align: center;		
 	min-height: 680px;
 	height: 680px;
-	width: 100%;
+	width: 100vw;
 }
 
 .right-banner-content h2 {
