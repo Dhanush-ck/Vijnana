@@ -115,6 +115,7 @@ p {
 	text-align: center;		
 	min-height: 680px;
 	height: 680px;
+	width: 100%;
 }
 
 .right-banner-content h2 {
@@ -136,6 +137,7 @@ p {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 10px;
+	width: 100%;
 }
 
 .right-banner-content span {
@@ -195,6 +197,7 @@ p {
 .best-offer .col-md-4 {
 	padding-left: 0px;
 	padding-right: 5px;
+	width: 100%;
 }
 
 .best-offer .col-md-8 {
@@ -890,6 +893,7 @@ footer p em {
 		margin-top: 10px;
 		padding-right: 10px;
 		padding-left: 10px;
+		width: 100%;
 	}
 
 	.banner .left-banner-content {
