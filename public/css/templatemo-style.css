@@ -133,24 +133,17 @@ p {
 }
 
 .right-banner-content .heading {
-	display: grid;
-	grid-template-columns: 40% 60%;
-	/* height: 100px; */
-	/* padding-bottom: 10px; */
-}
-
-.right-banner-content .heading img {
-	justify-self: end;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
 }
 
 .right-banner-content span {
-	display: grid;
 	font-size: 14px;
 	/* text-transform: uppercase; */
 	color: #fff;
 	letter-spacing: 0.5px;
 	padding: 10px;
-	text-align: left;
 }
 
 .right-banner-content em {
