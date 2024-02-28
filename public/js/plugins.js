@@ -702,7 +702,7 @@ jQuery(document).ready(function($){
                     listClass : '',
                     gridClass : '',
                     transitionSpeed : 600,
-                    showOnLoad : 'all',
+                    showOnLoad : 'start',
                     sortOnLoad : false,
                     multiFilter : false,
                     filterLogic : 'or',
@@ -837,9 +837,9 @@ jQuery(document).ready(function($){
                 // RENAME "ALL" CATEGORY TO "MIX_ALL"
     
                 $cont.find(config.targetSelector).addClass('mix_all');
-                if(showOnLoadArray[0]  == 'all'){
-                    showOnLoadArray[0] = 'mix_all',
-                    config.showOnLoad = 'mix_all';
+                if(showOnLoadArray[0]  == 'start'){
+                    showOnLoadArray[0] = 'start',
+                    config.showOnLoad = 'start';
                 };
                 
                 // FADE IN 'SHOWONLOAD'
@@ -1084,7 +1084,7 @@ jQuery(document).ready(function($){
                 config.origOrder = [];
                 $t.find(config.targetSelector).each(function(){
                     var $th = $(this);
-                    $th.addClass('mix_all'); 
+                    $th.addClass('workshop'); 
                     config.origOrder.push($th);
                 });
                 if(!config.mixing && typeof arg !== 'undefined'){
@@ -1988,7 +1988,7 @@ jQuery(document).ready(function($){
         var arr = str.split(' ');
         // IF ALL, REPLACE WITH MIX_ALL
         $.each(arr,function(i){
-            if(this == 'all')arr[i] = 'mix_all';
+            if(this == 'all')arr[i] = 'workshop';
         });
         if(arr[0] == "")arr.shift(); 
         return arr;
